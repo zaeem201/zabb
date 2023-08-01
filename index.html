@@ -4,41 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    
     <style>
+    
+           
         #intro{
-            border: 10px dashed gold;
-            background-color: brown;
-        color:burlywood;
-        text-align:center;
+
+            border: 40px dashed red;
+            padding: 10px 90px;
+             color:blue;
+            text-align:center;
+            width: auto;
         }
-        li{
-            color:green;}
-        
+        #eduu{
+            width:  200px;
+            border: 10px dashed saddlebrown;
+             margin-top: 0px;
+             padding:20px;
+             background-color: gold;
+             height: 200px;
+             margin-left: 10px;
+             margin-right:40px;
+        }
+        .second{
+            width: 200px;
+            height:200px;
+            border:10px dashed saddlebrown;
+            padding:20px;
+            margin-left: 450px;
+            margin-top:-260px; 
+            background-color: gold;
+            
+        }
+        #skill{
+            border : 10px dashed saddlebrown;
+            width: 200px;
+            height: 200px;
+            padding: 50px 20px 0px 20px;
+            background-color: gold;
+            margin-left: 950px;
+            margin-top: -260px;
+                    }
+        #pic{
+            border: 10px solid rebeccapurple;
+            text-align: center;
+            width: auto;
+            height: auto;
+             
+        }
     </style>
 </head>
 <body>
+    
     <h2 id="intro">This is something about Me <br />Me= Shah Zaeem</h2>
-    <ol><li>My Education</li>
+    <ol>
+       <div id = "eduu" >
+        <li>My Education</li>
        <ul>
         <li> Bsc(Maths,Physics,)</li>
         <li>Msc IT</li>
         <li>Other course from internet </li></ul>
+        </div>
+        <div class="second">
         <li>My Work Experience</li>
           <ul>
             <li>Worked as a computer science teacher at a school</li>
             <li>Worked as a team member for developing kashmir university website </li></ul>
-        <li>Skills</li>
+        </div>
+         <div id="skill">   <li>Skills</li>
         <ul> 
             <li>C,C++,Python,Full Stack developer</li>
             <li>Can fill my team with passion and energy</li>
             <li>enthuasistic</li>
         </ul>
+         </div>
     </ol>
-    <h4>To know me see this pic and to know more click it.</h4>
+    <div id="pic">
+    <h4 >To know me see this pic and to know more click it.</h4>
     <a href="./aboutme.html" ><img src="./shah.jpeg" height="150" alt="this is the image of the developer" > </a>
+    </div>
     <br/><br/>
     <br/>
-    <hr />
+    <hr  width="1000px"/>
     <a href="./contact.html"> Click to connect</a>
     <footer>
         <p> © Shah Basira<
